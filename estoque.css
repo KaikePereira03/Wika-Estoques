@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+   header{
+        background: linear-gradient(68.15deg, #2f2325 16.62%, #8E5D52 85.61%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding: 12px 15px;
+   }
+   header img{
+       width: 100px;
+   }
+   nav, ul{
+       list-style: none;
+   }
+   header nav,ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+   nav li a{
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+   }
+   nav li a:hover{
+       color: rgb(63, 27, 27);
+       transition: 0.4s all;
+   }
+   nav li{
+       margin: 0 20px;
+       padding-bottom: 20px;
+   }
+
+   /*banner*/
+   .altura{
+       height: 1500px;
+   }
+   section.banner{
+       background: url(../projeto/img/banner.jpg);
+       height: 650px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       color: #fff;
+       text-align: center;
+       padding: 310px 0;
+   }
+   section.banner h1{
+     font-size: 45px;
+     padding-bottom: 25px;
+   }
+   section.banner p{
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+  section.banner a{
+    color: #000;
+    background: #fff;
+    padding: 18px 40px;
+    text-decoration: none;
+    border-radius: 8pxs;
+  }
+   @media (max-width: 100px){
+    header{
+        flex-direction: column;
+   }
+   header img{
+       width: 100px;  
+   }
+   }
+   #entrar-btn{
+       border: 2px solid rgb(83, 20, 34);
+       padding: 10px;
+       border-radius: 15px;
+   }
+   #entrar-btn:hover{
+       background-color: rgb(83, 20, 34);
+       color: white;
+       transition: 0.4s;
+   }
+   #cadastro-btn{
+    border: 2px solid rgb(83, 20, 34);
+       padding: 10px;
+       border-radius: 15px;
+   }
+   #cadastro-btn:hover{
+    background-color: rgb(83, 20, 34);
+    color: white;
+    transition: 0.4s;
+
+   }
+   .gradient {
+    font-size: 1;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    /* fundo gradiente */
+    background-image: linear-gradient(#2f2325 16.62%, #8E5D52  85.61%);
+    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
+  }
+  .rodape{
+    color: #8E5D52;
+  }

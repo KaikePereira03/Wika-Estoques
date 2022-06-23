@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8E5D52 85.61%);
+    color: white;
+    font-family: 'poppinsregular';
+    max-width: 1000px;
+    padding: 15px;
+} 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    color: white;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(63, 27, 27);
+    transition: 0.4s;
+}
+#cadastro-btn{
+    border-radius: 10px;
+}
